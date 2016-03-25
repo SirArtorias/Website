@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" charset="UTF-8">
+    <title>Projekt</title>
+    <link rel="stylesheet" type="text/css" href="mainstyle.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.menubutton').click(function () {
+                $('.nav').slideToggle('slow')
+            })
+        })
+
+    </script>
+</head>
+<body>
+    <section id="menubar">
+        <ul>
+            <li><a class="menubutton" href="#menu"><img src="images/icon-mobile-menu.png"/></a> </li>
+        </ul>
+    </section>
+    <header>
+        <h1>EMM-16</h1>
+    </header>
+    <nav class="nav">
+        <ul>
+            <li><a href="index.html" class="active">Home</a> </li>
+            <li><a href="docs.html" >Dokumente</a> </li>
+            <li><a href="team.html" >Team</a> </li>
+            <li><a href="releases.html" >Releases</a> </li>
+        </ul>
+    </nav>
+    <section id="main">
+        <article>
+            <h2>Das machen wir</h2>
+            <img src="images/test_background.jpeg"/>
+            <p>An sächsischen Hochschulen sind verschiedene E-Learning-Portale im Einsatz.
+                Eine Vernetzung dieser Portale auf der Ebene von E-Learning-Ressourcen ist
+                schwierig. Ein sinnvoller Austausch ist nur auf der Ebene von Kursexporten
+                möglich. Hierfür gibt es mit Learning Objects Metadata (LOM) einen offenen
+                Standard zum Austausch von Metadaten (IEEE). Es soll eine Applikation
+                entstehen, welche E-Learning-Kurse sächsischer Hochschulen darstellt.
+                Zielgruppe für die Plattform sind Studieninteressierte. Die Applikation soll
+                eine Nutzeroberfläche bereitstellen, die in vorhandene Websites eingebunden
+                wird.</p>
+            <p> Im Vorfeld eines solchen Austauschs ist es interessant, einen Überblick über
+                die in den verschiedenen Portalen angebotenen Kurse in standardisiertem
+                Format zu erhalten. Ein solcher Export von Metainformationen kann auf
+                datenschutz- und urheberrechtlich unbedenkliche Weise organisiert werden, da
+                weder personenbezogene Daten exportiert werden müssen noch der Zugang zu den
+                Metadaten die Zugänglichkeit der Ressource selbst impliziert. Kursmetadaten
+                können also prinzipiell als Linked Open Data zur Verfügung gestellt werden.
+                Die Integrationslösung soll RDF-basierte semantische Technologien auf der
+                Ebene des Datenmodells und zur Datenintegration verwenden. Zur Suche dient
+                ein SPARQL- Endpunkt auf dem entsprechenden RDF-Store. Besondere Rolle
+                spielt dabei die Volltextsuche über die Tripel.</p>
+            <p>Die angesprochene Oberfläche soll ansehnlich darstellen, wo welche Kurse
+                angeboten werden. Der Nutzer soll die Möglichkeit auf den semantischen Daten
+                zu suchen. Ergebnisse sollen übersichtlich und strukturiert nach Hochschule
+                und/oder Studiengang dargestellt werden. Der Nutzer soll die Möglichkeit
+                haben zu einem Kurs Detailinformationen zu.</p>
+        </article>
+    </section>
+    <footer>
+        <ul>
+            <li>&copy; Andre Benda</li>
+            <li>Kontakt</li>
+        </ul>
+    </footer>
+
+
+</body>
+</html>
