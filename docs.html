@@ -3,12 +3,17 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" charset="UTF-8">
     <title>Projekt</title>
-    <link rel="stylesheet" type="text/css" href="docstyle.css">
+    <link rel="stylesheet" type="text/css" href="releasestyle.css">
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <script type="text/javascript">
         $(document).ready(function () {
             $('.menubutton').click(function () {
                 $('.nav').slideToggle('slow')
+            })
+        })
+        $(document).ready(function () {
+            $('.slidefield').click(function () {
+                $('.docnav').slideToggle('slow')
             })
         })
     </script>
@@ -20,31 +25,32 @@
     </ul>
 </section>
 <header>
-    <h1>Dokumente</h1>
+    <h1>Releases</h1>
 </header>
 <nav class="nav">
     <ul>
         <li><a href="index.html" >Home</a> </li>
-        <li><a href="docs.html" class="active">Dokumente</a> </li>
+        <li><a class="slidefield"href="#menu" class="active">Dokumente</a> </li>
         <li><a href="team.html" >Team</a> </li>
+        <!--<li><a href="releases.html" class="active">Releases</a> </li>-->
         <li><a href="releases.html" >Releases</a> </li>
     </ul>
 </nav>
 <section id="main">
-    <article>
-        <nav>
-            <ul>
-                <li>Dokumente</li>
-                <ul>
-                    <li>QS-Konzept</li>
-                    <li>Arbeitsplan</li>
-                    <li>Backlog</li>
-                    <li>Meilenstein</li>
-                    <li>Testkonzept</li>
-                </ul>
-            </ul>
-        </nav>
-    </article>
+    <ul id="mainslide">
+        <li><a class="slidefield" href="#menu">Dokumente</a> </li>
+    </ul>
+    <nav class="docnav">
+        <ul>
+            <li><a href="rel/testRel.zip" download="test" >Dokument 1</a> </li>
+            <li><a href="rel/testRel.zip" download="test" >Dokument 2</a> </li>
+            <li><a href="rel/testRel.zip" download="test" >Dokument 3</a> </li>
+            <li><a href="rel/testRel.zip" download="test" >Dokument 4</a> </li>
+            <li><a href="rel/testRel.zip" download="test" >Dokument 5</a> </li>
+            <li><a href="rel/testRel.zip" download="test" >Dokument 6</a> </li>
+            <li><a href="rel/testRel.zip" download="test" >Dokument 7</a> </li>
+        </ul>
+    </nav>
 </section>
 <footer>
     <ul>

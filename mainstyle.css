@@ -106,8 +106,8 @@ nav ul li a:hover{
 nav ul li a.active{
     border-bottom: 0.188em solid #E7590B;
 }
-/*                 Docslider     */
-nav ul li #docslider{
+/*                 Docslider alternativ    */
+/*nav ul li #docslider{
     display: none;
     height: auto;
 }
@@ -132,7 +132,7 @@ nav ul li #docslider ul li a:hover{
 }
 nav ul li #docslider ul li a.active{
     border-bottom: 0.188em solid #E7590B;
-}
+}*/
 /*               Docslide                   */
 
 /* Content Area */

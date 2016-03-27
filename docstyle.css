@@ -53,12 +53,16 @@ img{
     max-width: 100%;
 }
 a{
-    text-decoration: none;
+    /*text-decoration: none;*/
+    font-family: Helvetica;
+    font-weight: 100;
+    color: #2F2D2C;
 }
 /* On Top Bar */
 #menubar{
     display: block;
     background: white;
+
 }
 #menubar ul {
     display: block;
@@ -106,6 +110,23 @@ nav ul li a.active{
     border-bottom: 0.188em solid #E7590B;
 }
 /* Content Area */
+#main #mainslide{
+    display: block;
+    text-align: center;
+    background: white;
+}
+#main #mainslide ul{
+    display: block;
+    width: 2em;
+    padding: 0.9em;
+}
+#main #mainslide ul li{
+    display: inline;
+}
+#main #mainslide ul li a.slidefield{
+    display: block;
+}
+
 #main{
     display: block;
     width: 96%;
@@ -113,71 +134,37 @@ nav ul li a.active{
     margin: 1.25em auto;
     padding: 0em;
 }
-#main article{
-    display: inline-block;
-    width: 100%;
-    background: ghostwhite;
-    vertical-align: top;
-    margin: 0em;
-    padding: 0em;
-    text-align: center;
-}
-#main article nav{
-    display: block;
-
-    background: #4C4948;
-    /*border-radius: 5px;*/
-    display: block;
-    width: 95%;
-    padding: 0.9em;
-}
-#main article nav ul{
-    text-align: center;
-    float: left;
-    margin: 0;
-    padding: 0;
-    height: 38px;
-    /*box-shadow: 0px 0px 16px 0px #111;*/
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-}
-
-#main article nav ul li{
-    position: relative;
-    list-style: none;
-    float: left;
-    background: #4C4948;
-    padding: 10px;
-    text-align: center;
-    width: 100%;
-    transition: all 300ms;
-}
-#main article nav ul li:hover{
-    background:#E7590B;
-    color: #FFFFFF;
-}
-#main article nav ul li:hover ul{
+#main nav{
+    display: none;
     height: auto;
-    opacity: 1;
-}
-#main article nav ul li ul{
-    height: 0px;
-    width: 100%;
-    overflow: hidden;
-    opacity: 0;
-    position: absolute;
-    top: 45px;
-    left: 0px;
 
+    /*background: white;
+    text-align: center;*/
+}
+#main nav ul{
+    display: block;
+}
+#main nav ul li{
+    display: block;
+    margin: 0em 0.188em 0em 0.188em;
+}
+#main nav ul li a{
+    color: #454040;
+    font-size: 1.125em;
+    line-height: 2.5em;
+    padding: 0.563em 0.938em 0.375em 0.983em;
+    transition: background 0.2s;
+    -webkit-transition: background 0.2s;
+}
+#main nav ul li a:hover{
+    background: #DBD9D8;
+    border-bottom: 0.188em solid #E7590B;
+}
+#main nav ul li a.active{
+    border-bottom: 0.188em solid #E7590B;
 }
 footer{
     display: block;
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    height: 25px;
     background: #2F2C2C;
     text-align: center;
 }
