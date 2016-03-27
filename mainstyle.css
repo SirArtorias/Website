@@ -106,6 +106,35 @@ nav ul li a:hover{
 nav ul li a.active{
     border-bottom: 0.188em solid #E7590B;
 }
+/*                 Docslider     */
+nav ul li #docslider{
+    display: none;
+    height: auto;
+}
+nav ul li #docslider ul{
+    display: block;
+}
+nav ul li #docslider ul li{
+    display: block;
+    margin: 0em 0.188em 0em 0.188em;
+}
+nav ul li #docslider ul li a{
+    color: #454040;
+    font-size: 1.125em;
+    line-height: 2.5em;
+    padding: 0.563em 0.938em 0.375em 0.983em;
+    transition: background 0.2s;
+    -webkit-transition: background 0.2s;
+}
+nav ul li #docslider ul li a:hover{
+    background: #DBD9D8;
+    border-bottom: 0.188em solid #E7590B;
+}
+nav ul li #docslider ul li a.active{
+    border-bottom: 0.188em solid #E7590B;
+}
+/*               Docslide                   */
+
 /* Content Area */
 #main{
     display: block;
