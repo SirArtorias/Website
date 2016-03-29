@@ -127,6 +127,7 @@ nav ul li a.active{
     display: block;
 }
 
+
 #main{
     display: block;
     width: 96%;
@@ -163,7 +164,11 @@ nav ul li a.active{
 #main nav ul li a.active{
     border-bottom: 0.188em solid #E7590B;
 }
+
 footer{
+    bottom: 0;
+    position: fixed;
+    width: 100%;
     display: block;
     background: #2F2C2C;
     text-align: center;
