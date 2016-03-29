@@ -48,9 +48,9 @@ li{
     margin: 0.313em 0em 0.313em 0em;
 }
 img{
-    width: 90%;
+    width: 4%;
     height: auto;
-    max-width: 100%;
+    max-width: 4%;
 }
 a{
     /*text-decoration: none;*/
@@ -110,23 +110,36 @@ nav ul li a.active{
     border-bottom: 0.188em solid #E7590B;
 }
 /* Content Area */
-#main #mainslide{
+#mainslide{
     display: block;
+    height: 2.5em;
     text-align: center;
     background: white;
 }
-#main #mainslide ul{
+#mainslide ul{
     display: block;
-    width: 2em;
-    padding: 0.9em;
+    /*width: 2em;
+    padding: 0.9em;*/
 }
-#main #mainslide ul li{
+#mainslide ul li{
     display: inline;
+    margin: 0em 0.188em 0em 0.188em;
 }
-#main #mainslide ul li a.slidefield{
+#mainslide ul li a{
+    color: #454040;
+    font-size: 1.125em;
+    line-height: 2.5em;
+    padding: 0.563em 0.938em 0.375em 0.983em;
+    transition: background 0.2s;
+    -webkit-transition: background 0.2s;
+}
+#mainslide ul li a.slidefield{
     display: block;
 }
-
+#mainslide ul li a:hover{
+    background: #DBD9D8;
+    border-bottom: 0.188em solid #E7590B;
+}
 
 #main{
     display: block;
