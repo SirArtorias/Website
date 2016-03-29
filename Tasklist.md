@@ -1,7 +1,6 @@
 # To Do
-- [x] Footer in releases und docs nach unten kleben.
-- [x] png "Button" in besagten Klassen einfügen.
-- [x] Team Eigenschaften einfügen.
+- [ ] Verschiebung in Dokumente korrigieren.
+- [ ] png's in Mobilerversion anpassen.
 
 # Next
 - [ ] Dropdown in rels und docs in die Menubar integrieren ( in index und team).
