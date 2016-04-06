@@ -158,7 +158,10 @@ nav ul li #docslider ul li a.active{
     border-radius: 5px;
 }
 footer{
+    bottom: 0;
+    position: fixed;
     display: block;
+    width: 100%;
     background: #2F2C2C;
     text-align: center;
 }
